@@ -1,0 +1,15 @@
+{
+ "n_dias": 811,
+ "desde": "2024-01-02",
+ "hasta": "2026-09-30",
+ "tareas_intercepto": 145.56785323781747,
+ "tareas_por_1000_cajas": 2.0450575704321006,
+ "r_tareas": 0.3435104480582418,
+ "sigma_tareas": 38.513527105657914,
+ "rechazo_intercepto": 401.15230061189806,
+ "rechazo_por_1000_cajas": 15.196234934126457,
+ "r_rechazo": 0.2641951765385562,
+ "pct_a_picking": 0.9,
+ "excluye": "OTROS",
+ "unidad_tarea": "un SKU rechazado en el d\u00eda"
+}

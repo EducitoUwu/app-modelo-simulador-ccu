@@ -1,0 +1,83 @@
+{
+ "periodo_log": [
+  "2026-09-04",
+  "2026-10-09"
+ ],
+ "dias_completos": 29,
+ "dias_con_venta": 22,
+ "corte_chico_pallets": 19,
+ "tipos": {
+  "chico": {
+   "pallets_por_camion": 10.272445820433436,
+   "camiones_dia_media_todos": 11.137931034482758,
+   "camiones_dia_media_con_venta": 11.909090909090908,
+   "desvio_dia": 4.453923935547768,
+   "por_1000_cajas": 0.4459566877332975,
+   "recta_intercepto": 17.1959680757107,
+   "recta_por_1000": -0.19797633989667326,
+   "r": -0.25902436426055875,
+   "p": 0.24441834194904474,
+   "p_intercepto": 0.0011166987142891566,
+   "escala_con_venta": false,
+   "reparto_turno": {
+    "A": 0.43343653250773995,
+    "B": 0.5386996904024768,
+    "C": 0.02786377708978328
+   },
+   "n_camiones_cronometrados": 17,
+   "n_con_planificador": 13,
+   "n_sin_planificador": 4,
+   "descarga_s_media": 256.2352941176471,
+   "escaneo_s_con_planificador": 278.15384615384613,
+   "escaneo_s_sin_planificador": 210.25,
+   "gruero_s_con_planificador": 267.2307692307692,
+   "gruero_s_sin_planificador": 430.75,
+   "planificador_s": 278.15384615384613,
+   "p_test_gruero_con_vs_sin": 0.044537815126050415,
+   "pct_escaneo_planificador_log": 0.6666666666666666,
+   "n_documentos_log_usuarios": 141,
+   "gruero_s_por_camion": 321.73717948717945,
+   "planificador_s_por_camion": 185.4358974358974,
+   "pct_escaneo_en_paralelo_con_planificador": 0.46153846153846156,
+   "espera_camion_s_mediana": 60.0,
+   "preparacion_s_mediana": 105.0
+  },
+  "grande": {
+   "pallets_por_camion": 27.935643564356436,
+   "camiones_dia_media_todos": 6.9655172413793105,
+   "camiones_dia_media_con_venta": 7.545454545454546,
+   "desvio_dia": 3.256671817983701,
+   "por_1000_cajas": 0.2825527105485778,
+   "recta_intercepto": -2.7988467491293134,
+   "recta_por_1000": 0.3873604104177609,
+   "r": 0.6906428311016554,
+   "p": 0.0003734697158840709,
+   "p_intercepto": 0.27336063763202345,
+   "escala_con_venta": true,
+   "reparto_turno": {
+    "A": 0.6287128712871287,
+    "B": 0.33663366336633666,
+    "C": 0.034653465346534656
+   },
+   "n_camiones_cronometrados": 14,
+   "n_con_planificador": 6,
+   "n_sin_planificador": 8,
+   "descarga_s_media": 800.9285714285714,
+   "escaneo_s_con_planificador": 390.5,
+   "escaneo_s_sin_planificador": 694.125,
+   "gruero_s_con_planificador": 910.3333333333334,
+   "gruero_s_sin_planificador": 1413.0,
+   "planificador_s": 390.5,
+   "p_test_gruero_con_vs_sin": 0.012654012654012654,
+   "pct_escaneo_planificador_log": 0.7333333333333333,
+   "n_documentos_log_usuarios": 90,
+   "gruero_s_por_camion": 1044.3777777777777,
+   "planificador_s_por_camion": 286.3666666666667,
+   "pct_escaneo_en_paralelo_con_planificador": 0.8333333333333334,
+   "espera_camion_s_mediana": 134.0,
+   "preparacion_s_mediana": 263.5
+  }
+ },
+ "pallets_por_1000_cajas": 12.44934051176083,
+ "pallets_r_venta": 0.6660989177716454
+}

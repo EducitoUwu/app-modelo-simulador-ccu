@@ -1,0 +1,23 @@
+{
+ "pallets_noche_c": 37.851851851851855,
+ "n_noches": 27,
+ "rango_noche_c": [
+  13,
+  68
+ ],
+ "pallets_dia_a": 1.037037037037037,
+ "pct_turno_c": 0.9733333333333334,
+ "desde": "2026-09-15",
+ "hasta": "2026-10-19",
+ "s_ciclo": 231.3544061302682,
+ "s_ciclo_mediana": 190.0,
+ "n_ciclos": 522,
+ "dias_ciclo": 14,
+ "usuarios_ciclo": 8,
+ "descartados_otra_tarea": 2,
+ "estado_tiempo": "validado",
+ "r_venta": 0.29378051068776256,
+ "p_venta": 0.35402033591827414,
+ "n_noches_venta": 12,
+ "cajas_por_pallet": 77.01323251417769
+}

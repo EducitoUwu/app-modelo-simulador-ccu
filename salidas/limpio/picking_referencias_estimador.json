@@ -1,0 +1,88 @@
+{
+ "generado": "2026-10-05T15:05:16",
+ "regresion_t99": {
+  "n": 22,
+  "pendiente_h_por_1000": 0.2628082851418049,
+  "ic95_pend": [
+   0.20014295021835332,
+   0.32547362006525643
+  ],
+  "intercepto": -0.7286422876861574,
+  "r2": 0.7928124349106598,
+  "p": 2.8511691577792244e-08,
+  "sigma_h": 0.8627591799345323,
+  "x_medio": 26.704590909090903,
+  "sxx": 824.779457318182,
+  "tcrit": 2.085963447265864
+ },
+ "regresion_t99_sin_14_16": {
+  "n": 19,
+  "pendiente_h_por_1000": 0.1830676245643085,
+  "r2": 0.607395030050709
+ },
+ "cruce_8h": {
+  "punto": 33212.96466348615,
+  "p5": 31570.643822536793,
+  "p95": 36383.25940748253,
+  "n_boot": 4000
+ },
+ "efecto_regimen_h": -0.8159828986611023,
+ "facturado_min": 18050.0,
+ "facturado_max": 42151.0,
+ "noches_pasan_de_8": 3,
+ "loo": {
+  "n": 22,
+  "mae_min": 41.949305045253006,
+  "rmse_min": 54.94501102050046,
+  "sesgo_min": -0.8683663347093991,
+  "max_abs_min": 118.42325098897918,
+  "noche_peor": "2026-09-04",
+  "aciertos_pasa_de_8": 19,
+  "noches_pasan_de_8": 3,
+  "predice_pasa_y_pasa": 2,
+  "predice_pasa_y_no": 2
+ },
+ "pickers_simultaneos_mediana": 15.0,
+ "pickers_simultaneos_max": 15.5,
+ "pickers_distintos_mediana": 15.5,
+ "tiempo_linea": [
+  {
+   "clave": "mes",
+   "etiqueta": "mes completo (4 al 30-sep)",
+   "segundos": 49.738746195563145,
+   "n_gaps": 115983,
+   "noches": 22
+  },
+  {
+   "clave": "previo",
+   "etiqueta": "previo al 22-sep (4 al 21-sep, incluye Fiestas Patrias)",
+   "segundos": 52.70598095920561,
+   "n_gaps": 78148,
+   "noches": 14
+  },
+  {
+   "clave": "vigente",
+   "etiqueta": "régimen vigente (22 al 30-sep)",
+   "segundos": 43.60993788819876,
+   "n_gaps": 37835,
+   "noches": 8
+  }
+ ],
+ "regimen_vs_volumen": {
+  "vigente_rango": [
+   20362.0,
+   28550.0
+  ],
+  "vigente_dias": 8,
+  "anterior_rango": [
+   18050.0,
+   42151.0
+  ],
+  "anterior_dias": 14,
+  "anterior_dias_en_rango_vigente": 6,
+  "anterior_dias_sobre_rango_vigente": 7,
+  "tau_anterior_mismo_volumen_s": 53.193379969288515,
+  "tau_vigente_s": 43.60993788819876,
+  "n_gaps_anterior_mismo_volumen": 29305
+ }
+}

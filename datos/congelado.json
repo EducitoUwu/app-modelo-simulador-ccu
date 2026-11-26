@@ -1,0 +1,270 @@
+{
+ "_origen": "valores leídos de los archivos de docs/ del repositorio del proyecto (las planillas crudas no se incluyen)",
+ "parametros_diana_valores": {
+  "util_picking": 0.6444057964598717,
+  "min_lista_picking": 6.916265083543232,
+  "min_lista_picking_pond": 6.581574987405951,
+  "util_picking_pond": 0.6491699492987221,
+  "n_pickers_picking": 27,
+  "camiones_cl_por_caja": 0.0003509291298927698,
+  "pallets_por_camion_planilla": 17.483870967741936,
+  "pallets_cl_por_caja": 0.012327756504397186,
+  "pallets_por_camion": 35.12890625000001,
+  "min_recepcion_camion": 23.500000000000004,
+  "min_almacenamiento_pallet": 1.7,
+  "rdp_por_caja": 0.003249360668333509,
+  "seg_rdp": 129.0,
+  "seg_rdp_con_desplazamiento": 301.79999999999995,
+  "seg_carga_cl_pallet": 62.0,
+  "recogida_por_caja": 0.001372560377721001,
+  "demanda_normal_vendida": 22431.07790763266,
+  "seg_rdc_gruero": 133.0,
+  "seg_carga_vuelta": 1095.0,
+  "frac_carga_cl": 0.6,
+  "min_carga_cl": 24.0,
+  "seg_retorno": 33.0,
+  "n_meses": 20,
+  "fuente": "Carga de trabajo (2).xlsx (leído celda por celda)"
+ },
+ "pallets_por_camion_planilla": 17.483870967741936,
+ "dotacion_septiembre": [
+  {
+   "empresa": "CCU",
+   "cargo": "Despachador",
+   "turno_a": 3,
+   "turno_b": 3,
+   "turno_c": 3
+  },
+  {
+   "empresa": "CCU",
+   "cargo": "Encargado de Existencias",
+   "turno_a": 2,
+   "turno_b": 0,
+   "turno_c": 0
+  },
+  {
+   "empresa": "CCU",
+   "cargo": "Gruero-Operario",
+   "turno_a": 3,
+   "turno_b": 3,
+   "turno_c": 4
+  },
+  {
+   "empresa": "CCU",
+   "cargo": "Jefe Gestión y Control Exist.",
+   "turno_a": 1,
+   "turno_b": 0,
+   "turno_c": 0
+  },
+  {
+   "empresa": "CCU",
+   "cargo": "Auxiliar Operac. de Bodega",
+   "turno_a": 1,
+   "turno_b": 0,
+   "turno_c": 15
+  },
+  {
+   "empresa": "CCU",
+   "cargo": "Jefe de Operaciones",
+   "turno_a": 1,
+   "turno_b": 0,
+   "turno_c": 0
+  },
+  {
+   "empresa": "CCU",
+   "cargo": "Jefe de Turno",
+   "turno_a": 1,
+   "turno_b": 0,
+   "turno_c": 0
+  },
+  {
+   "empresa": "CCU",
+   "cargo": "SGTE Operac. BOD y Distr. (REG)",
+   "turno_a": 1,
+   "turno_b": 0,
+   "turno_c": 0
+  },
+  {
+   "empresa": "CCU",
+   "cargo": "Ingeniero TPM",
+   "turno_a": 1,
+   "turno_b": 0,
+   "turno_c": 0
+  },
+  {
+   "empresa": "Recifast",
+   "cargo": "Reempaque",
+   "turno_a": 3,
+   "turno_b": 0,
+   "turno_c": 0
+  },
+  {
+   "empresa": "Recifast",
+   "cargo": "Clasificación",
+   "turno_a": 2,
+   "turno_b": 1,
+   "turno_c": 0
+  },
+  {
+   "empresa": "Recifast",
+   "cargo": "Subestándar",
+   "turno_a": 1,
+   "turno_b": 0,
+   "turno_c": 0
+  },
+  {
+   "empresa": "Recifast",
+   "cargo": "Gruero",
+   "turno_a": 1,
+   "turno_b": 1,
+   "turno_c": 0
+  },
+  {
+   "empresa": "Recifast",
+   "cargo": "Operario de Bodega",
+   "turno_a": 4,
+   "turno_b": 2,
+   "turno_c": 0
+  },
+  {
+   "empresa": "Recifast",
+   "cargo": "Supervisor",
+   "turno_a": 1,
+   "turno_b": 0,
+   "turno_c": 0
+  },
+  {
+   "empresa": "Papic",
+   "cargo": "Operario de Bodega",
+   "turno_a": 2,
+   "turno_b": 2,
+   "turno_c": 0
+  },
+  {
+   "empresa": "Papic",
+   "cargo": "Parrillero",
+   "turno_a": 0,
+   "turno_b": 0,
+   "turno_c": 4
+  }
+ ],
+ "equipos": [
+  {
+   "tipo": "Transpaletas",
+   "cantidad": 3,
+   "momento": "15:30"
+  },
+  {
+   "tipo": "Transpaletas (otra cifra sin etiquetar, columna D)",
+   "cantidad": 14,
+   "momento": "15:30"
+  },
+  {
+   "tipo": "Grúas",
+   "cantidad": 4,
+   "momento": "15:30"
+  }
+ ],
+ "turnos_reales": [
+  {
+   "turno": "A",
+   "rol": "Planificador",
+   "personas": 1
+  },
+  {
+   "turno": "B",
+   "rol": "Planificador",
+   "personas": 1
+  },
+  {
+   "turno": "C",
+   "rol": "Planificador",
+   "personas": 1
+  },
+  {
+   "turno": "A",
+   "rol": "Chequeador",
+   "personas": 1
+  },
+  {
+   "turno": "B",
+   "rol": "Chequeador",
+   "personas": 1
+  },
+  {
+   "turno": "C",
+   "rol": "Chequeador",
+   "personas": 2
+  },
+  {
+   "turno": "A",
+   "rol": "Gruero",
+   "personas": 3
+  },
+  {
+   "turno": "B",
+   "rol": "Gruero",
+   "personas": 3
+  },
+  {
+   "turno": "C",
+   "rol": "Gruero",
+   "personas": 4
+  },
+  {
+   "turno": "A",
+   "rol": "Operario",
+   "personas": 1
+  },
+  {
+   "turno": "B",
+   "rol": "Operario",
+   "personas": 1
+  },
+  {
+   "turno": "C",
+   "rol": "Operario",
+   "personas": 12
+  },
+  {
+   "turno": "A",
+   "rol": "Externos",
+   "personas": 6
+  },
+  {
+   "turno": "B",
+   "rol": "Externos",
+   "personas": 4
+  },
+  {
+   "turno": "C",
+   "rol": "Externos consolidador",
+   "personas": 5
+  },
+  {
+   "turno": "A",
+   "rol": "Subestándar",
+   "personas": 1
+  },
+  {
+   "turno": "A",
+   "rol": "Reempaque",
+   "personas": 3
+  },
+  {
+   "turno": "A",
+   "rol": "Clasificación",
+   "personas": 2
+  }
+ ],
+ "metodos_reabasto": [
+  {
+   "id": "REAPROPALLET",
+   "prioridad": 1.0
+  },
+  {
+   "id": "REAPROCAJA",
+   "prioridad": 2.0
+  }
+ ]
+}

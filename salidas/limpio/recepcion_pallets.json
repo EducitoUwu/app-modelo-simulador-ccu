@@ -1,0 +1,29 @@
+{
+ "tiempo": {
+  "s_fijo_camion": 230.40064999548588,
+  "s_por_pallet_marginal": 46.33939694863232,
+  "r_tiempo_pallets": 0.7842274959906004,
+  "p_tiempo_pallets": 2.1295781664939194e-06,
+  "pallets_por_camion_mezcla": 17.483870967741936,
+  "n_camiones_mezcla": 31,
+  "s_camion_mezcla": 1040.5926869683476,
+  "s_por_pallet_mezcla": 59.51729390409369,
+  "s_por_pallet": 60.401408450704224,
+  "mediana_s_por_pallet": 58.75,
+  "n_camiones": 26,
+  "n_dias": 9,
+  "excluidos": 1,
+  "pallets_por_camion_media": 16.384615384615383,
+  "corte_s_por_pallet": 300.0
+ },
+ "driver": {
+  "pallets_por_1000_cajas": 12.455751505627754,
+  "n_dias": 25,
+  "r_diario": 0.6642614795185086,
+  "cajas_recibidas_por_caja_vendida": 0.992797022059215,
+  "desde": "2026-09-01",
+  "hasta": "2026-09-30",
+  "almacenamiento_log_por_pallet": 0.8271401951112572,
+  "n_dias_almacenamiento": 30
+ }
+}
