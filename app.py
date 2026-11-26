@@ -814,7 +814,7 @@ def tab_capacidad():
 _CSS = """
 <style>
 :root{--verde:#3DBE6B;--verde-osc:#8FE0A9;--panel:#13281D;--borde:#27493A;}
-.block-container{padding-top:1.4rem;max-width:1500px;}
+.block-container{padding-top:4.2rem;max-width:1500px;}
 [data-testid="stAppDeployButton"],footer{display:none !important;}
 h2,h3,h4{color:var(--verde-osc);}
 h4{border-bottom:2px solid var(--borde);padding-bottom:4px;margin-top:1.2rem;}
@@ -854,14 +854,8 @@ def _estilo_global():
 
 
 def _encabezado():
-    try:
-        fechas = sorted({r["fecha"] for r in calibracion._filas()})
-        datos = f"Datos del WMS hasta el {dt.date.fromisoformat(fechas[-1]):%d-%m-%Y}" if fechas else "Datos del WMS"
-    except Exception:
-        datos = "Datos del WMS"
-    st.markdown(f"""<div class="ccu-hero"><h1>Modelo de capacidad y simulación operacional</h1>
-<p>Centro de Distribución Coquimbo · Transportes CCU · Capstone EIC 2026-2 (UCN)</p>
-<span class="ccu-chip">{datos}</span><span class="ccu-chip">Turnos A 08-16 · B 16-24 · C 00-08</span><span class="ccu-chip">Línea base AS-IS</span></div>""", unsafe_allow_html=True)
+    st.markdown("""<div class="ccu-hero"><h1>Modelo de capacidad y simulación operacional</h1>
+<p>Centro de Distribución Coquimbo · Transportes CCU · Capstone EIC 2026-2 (UCN)</p></div>""", unsafe_allow_html=True)
 
 
 def main():
